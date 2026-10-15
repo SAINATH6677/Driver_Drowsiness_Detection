@@ -1,0 +1,104 @@
+{
+  "software_version": "DriveGuard AI 2.0",
+  "schema_version": "1.2.0",
+  "participant_id": "P001",
+  "session_id": "S20261010_172152",
+  "initial_activity_label": "normal_alert",
+  "target_sampling_rate_hz": 10.0,
+  "nominal_sampling_interval_s": 0.1,
+  "timestamp_type": "monotonic_seconds (time.monotonic())",
+  "utc_recording_start_time": "2026-10-10T11:52:00.383230+00:00",
+  "utc_recording_start_epoch": 1791633120.38323,
+  "csv_filepath": "data/raw/P001_S20261010_172152_normal_alert_20261010_172200.csv",
+  "column_count": 23,
+  "columns": [
+    "timestamp",
+    "participant_id",
+    "session_id",
+    "activity_label",
+    "face_detected",
+    "is_calibrated",
+    "ear",
+    "mar",
+    "perclos",
+    "blink_rate",
+    "blink_duration",
+    "eye_closure_duration",
+    "yawn_rate",
+    "yawn_duration",
+    "head_pitch",
+    "head_yaw",
+    "head_roll",
+    "gaze_x",
+    "gaze_y",
+    "looking_away_duration",
+    "head_nodding",
+    "fatigue_label",
+    "distraction_label"
+  ],
+  "activity_transitions": [
+    {
+      "activity_label": "normal_alert",
+      "sample_index": 0,
+      "timestamp": 13034.4429
+    },
+    {
+      "activity_label": "normal_blinking",
+      "sample_index": 19,
+      "timestamp": 13036.4989
+    },
+    {
+      "activity_label": "prolonged_eye_closure",
+      "sample_index": 51,
+      "timestamp": 13040.1469
+    },
+    {
+      "activity_label": "yawning",
+      "sample_index": 156,
+      "timestamp": 13052.0872
+    },
+    {
+      "activity_label": "looking_left",
+      "sample_index": 233,
+      "timestamp": 13060.8435
+    },
+    {
+      "activity_label": "looking_right",
+      "sample_index": 288,
+      "timestamp": 13067.0798
+    },
+    {
+      "activity_label": "looking_down",
+      "sample_index": 345,
+      "timestamp": 13073.5798
+    },
+    {
+      "activity_label": "head_nodding",
+      "sample_index": 368,
+      "timestamp": 13076.2001
+    },
+    {
+      "activity_label": "normal_alert",
+      "sample_index": 400,
+      "timestamp": 13079.8161
+    },
+    {
+      "activity_label": "normal_blinking",
+      "sample_index": 415,
+      "timestamp": 13081.54
+    },
+    {
+      "activity_label": "normal_alert",
+      "sample_index": 422,
+      "timestamp": 13082.3363
+    }
+  ],
+  "status": "completed",
+  "utc_recording_end_time": "2026-10-10T11:53:01.644255+00:00",
+  "utc_recording_end_epoch": 1791633181.644255,
+  "duration_seconds": 61.26,
+  "elapsed_monotonic_seconds": 61.1938,
+  "total_samples": 539,
+  "achieved_sampling_rate_hz": 8.79,
+  "irregular_intervals_count": 231
+}

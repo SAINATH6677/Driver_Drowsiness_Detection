@@ -1,0 +1,47 @@
+{
+  "software_version": "DriveGuard AI 2.0",
+  "schema_version": "1.2.0",
+  "participant_id": "P001",
+  "session_id": "S001",
+  "initial_activity_label": "normal_alert",
+  "target_sampling_rate_hz": 10.0,
+  "nominal_sampling_interval_s": 0.1,
+  "timestamp_type": "monotonic_seconds (time.monotonic())",
+  "utc_recording_start_time": "2026-10-10T11:49:51.735999+00:00",
+  "utc_recording_start_epoch": 1791632991.735999,
+  "csv_filepath": "data/raw/P001_S001_normal_alert_20261010_171951.csv",
+  "column_count": 23,
+  "columns": [
+    "timestamp",
+    "participant_id",
+    "session_id",
+    "activity_label",
+    "face_detected",
+    "is_calibrated",
+    "ear",
+    "mar",
+    "perclos",
+    "blink_rate",
+    "blink_duration",
+    "eye_closure_duration",
+    "yawn_rate",
+    "yawn_duration",
+    "head_pitch",
+    "head_yaw",
+    "head_roll",
+    "gaze_x",
+    "gaze_y",
+    "looking_away_duration",
+    "head_nodding",
+    "fatigue_label",
+    "distraction_label"
+  ],
+  "activity_transitions": [
+    {
+      "activity_label": "normal_alert",
+      "sample_index": 0,
+      "timestamp": null
+    }
+  ],
+  "status": "recording"
+}
